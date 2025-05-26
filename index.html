@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <title>TOP Landing Page</title>
         <link rel="stylesheet" href="style.css">
+        <!-- Implementing Google Roboto Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="hero">
+        <div class="header darkbg">
             <img src="https://www.giraffo.at/img/logo_schrift.png" alt="Logo of Giraffo" width="100px">
             <ul>
                 <li><a href="#">Yellow Giraffes</a></li>
@@ -15,16 +19,16 @@
             </ul>
         </div>
         <div class="main">
-            <div class="landing">
-                <div class="landing-container">
+            <div class="hero darkbg">
+                <div class="hero-container">
                     <h1>Ducks are awesome</h1>
                     <p>In case you didn't know, giraffes are very awesome and funny creatures</p>
                     <button>Sign up</button>
                 </div>
                 <img src="https://images.unsplash.com/photo-1577114995803-d8ce0e2b4aa9?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A giraffe, showing its tongue" width="300px">
             </div>
+            <h2>Some random information</h2>
             <div class="facts">
-                <h2>Some random information</h2>
                 <div class="info">
                     <img src="https://images.unsplash.com/photo-1485735662814-c4f66e49dbae?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Giraffe, looking into the camera">
                     <p>Giraffes are found in the dry savannahs of Africa, where they roam among the open plains and woodlands.</p>
@@ -42,16 +46,22 @@
                     <p>In the wild these beautiful creatures live for around 25 years. In captivity they live longer, and have been known to reach 40 years old.</p>
                 </div>
             </div>
-            <div class="quote">
-                <p>Well as giraffes say, you don't get no leaves unless you stick your neck out.</p>
-                <p class="origin">-Sid Waddell</p>
+            <div class="graybg">
+                <div class="quote">
+                    <p>Well as giraffes say, you don't get no leaves unless you stick your neck out.</p>
+                    <p class="origin">-Sid Waddell</p>
+                </div>
             </div>
             <div class="newsletter">
-                <div class="news-title">Call to action! It's time!</div>
-                <div class="news-content">Find out more about giraffes in our Newsletter! It has many words and pictures. Sometimes its also blue.</div>
-                <button>Sign up</button>
+                <div class="news-container">
+                    <div class="news-content">
+                        <h3>Call to action! It's time!</h3>
+                        <p>Find out more about giraffes in our Newsletter! It has many words and pictures. Sometimes its also blue.</p>
+                    </div>
+                    <button>Sign up</button>
+                </div>
             </div>
         </div>
-        <div class="footer">Copyright © Giraffe Fanboy for The Odin Project 2025</div>
+        <div class="footer darkbg">Copyright © Giraffe Fanboy for The Odin Project 2025</div>
     </body>
 </html>
